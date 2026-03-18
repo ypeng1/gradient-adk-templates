@@ -23,7 +23,7 @@ def web_search(query: str) -> str:
 
 
 llm = ChatGradient(
-    model="openai-gpt-oss-120b",
+    model="openai-gpt-oss-120b", #Models can be changed
 )
 
 prompt = ChatPromptTemplate.from_messages([
